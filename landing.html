@@ -1,0 +1,413 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iPhone Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="landing.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg"
+          alt="logo"
+        />
+        <nav id="nav-bar">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#line-up">Line-Up</a>
+          <a class="nav-link" href="#video">First Look</a>
+          <a class="nav-link" href="#contact-us">Newsletter</a>
+        </nav>
+      </header>
+    </div>
+    <div class="maincontent">
+      <!--Main Content-->
+
+      <h2>Meet the new iPhone 12</h2>
+      <video playsinline autoplay loop>
+        <source
+          src="https://www.apple.com/105/media/ww/iphone-12/2020/7f5b7de7-9f8c-41eb-bf3b-f294773108e6/anim/hero-purple/5g/large.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <p id="home">
+        5G speed. A14 Bionic, the fastest chip in a smart­phone. An edge-to-edge
+        OLED display. Ceramic Shield with four times better drop performance.
+        And Night mode on every camera. iPhone 12 has it all — in two perfect
+        sizes.
+      </p>
+      <img
+        src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-gallery3-2020_FMT_WHH?wid=750&hei=778&fmt=jpeg&qlt=80&.v=1601402686000"
+        alt="iphone-12-gallery3-2021"
+        border="0"
+        style="width: 40%; border-radius: 10px"
+      /><br />
+      <p>iPhone 12 6.1" XDR Display, iPhone 12 Mini 5.4" XDR display</p>
+    </div>
+
+    <div id="line-up">
+      <!--Line Up Start-->
+      <div class="flex-item">
+        <!--12mini-->
+        <h2 style="text-align: center">iPhone 12 Mini</h2>
+        <span class="span12mini" style="background-color: #aecbd9; width: 100%">
+          <p style="color: #3948b1; font-size: 28px">
+            The world’s smallest, thinnest, lightest 5G phone.
+          </p>
+          <img
+            src="https://i.postimg.cc/C1z6XCCc/iphone12miniprix.png"
+            alt="iphone12miniprix"
+            border="0"
+            style="width: 100%"
+          />
+        </span>
+        <p style="font-weight: 600; font-size: 20px">
+          <span style="color: #f36c67">MagSafe</span> Compatible
+        </p>
+        <video playsinline autoplay loop style="max-width: 100%">
+          <source
+            src="https://www.apple.com/105/media/ww/iphone-12/2020/7f5b7de7-9f8c-41eb-bf3b-f294773108e6/anim/click/small.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <p style="font-weight: 300; font-size: 14px; text-align: center">
+          Apple Wallet is sold separately.
+        </p>
+        <h3>Product details</h3>
+        <img
+          class="ip-12"
+          src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-mini-white-select-2020?wid=470&hei=556&fmt=png-alpha&.v=1604343707000"
+          alt="iphone-12-mini"
+        />
+
+        <p>
+          <b>Display:</b><br />
+          5.4" Display Super Retina XDR<br />
+          <b>Camera:</b><br />
+          Dual 12MP, Ultra-wide, Wide, 2x Optical Zoom<br />
+          <b>Chip:</b><br />
+          A14 Bionic Chip<br />
+          <b>Cellular and Wireless:</b><br />
+          5G (sub‑6 GHz), Wi-Fi 6, Bluetooth 5.0<br />
+          <b>Capacity:</b><br />
+          <select class="dropdown" name="size" required>
+            <option disabled value>Select a size</option>
+            <option value="64">64 GB</option>
+            <option value="128">128 GB</option>
+            <option value="256">256 GB</option></select
+          ><br />
+          <b>Colors:</b><br />
+          <select class="dropdown" name="color" required>
+            <option disabled value>Select a color</option>
+            <option value="white">White</option>
+            <option value="green">Green</option>
+            <option value="red">ProductRED</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option></select
+          ><br />
+          <b>Buy Now</b><br />
+          <button>Starting from 699$</button>
+        </p>
+      </div>
+      <div class="flex-item">
+        <!--12-->
+        <h2 style="text-align: center">iPhone 12</h2>
+        <span class="span12">
+          <p style="color: black; text-align: center; font-size: 26px">
+            5G Speed. OMGGGGG.
+          </p>
+          <p style="font-size: 18px; color: black; font-weight: 400">
+            5G on iPhone is superfast. So you can download movies on the fly.
+            Stream higher-quality video. Or FaceTime in HD over cellular. With
+            lots less lag. And you can do it in more places, because iPhone 12
+            has the broadest 5G coverage worldwide.
+          </p>
+          <video playsinline autoplay loop id="fiveg">
+            <source
+              src="https://www.apple.com/105/media/it/iphone-12/2020/7f5b7de7-9f8c-41eb-bf3b-f294773108e6/anim/5g/large.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <p>Spill and splash resistance</p>
+          <p style="font-size: 18px; color: black; font-weight: 400">
+            Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC
+            standard 60529
+          </p>
+          <img
+            src="https://www.apple.com/euro/iphone-12/a/screens_alt/images/overview/design/design_h2ok__dw6rbktprpm6_small.jpg"
+            alt="ipsplash"
+            border="0"
+          />
+        </span>
+
+        <p style="font-weight: 600; font-size: 20px">
+          <span style="color: #f36c67">MagSafe</span> Compatible
+        </p>
+        <h3>Product details</h3>
+        <img
+          class="ip-12"
+          src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-red-select-2020?wid=470&hei=556&fmt=png-alpha&.v=1604343703000"
+          alt="iphone-12"
+        />
+
+        <p>
+          <b>Display:</b><br />
+          6.1" Display Super Retina XDR<br />
+          <b>Camera:</b><br />
+          Dual 12MP, Ultra-wide, Wide, 2x Optical Zoom<br />
+          <b>Chip:</b><br />
+          A14 Bionic Chip<br />
+          <b>Cellular and Wireless:</b><br />
+          5G (sub‑6 GHz), Wi-Fi 6, Bluetooth 5.0<br />
+          <b>Capacity:</b><br />
+          <select class="dropdown" name="size" required>
+            <option disabled value>Select a size</option>
+            <option value="64">64 GB</option>
+            <option value="128">128 GB</option>
+            <option value="256">256 GB</option></select
+          ><br />
+          <b>Colors:</b><br />
+          <select class="dropdown" name="color" required>
+            <option disabled value>Select a color</option>
+            <option value="red">ProductRED</option>
+            <option value="green">Green</option>
+            <option value="white">White</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option></select
+          ><br />
+          <b>Buy Now</b><br />
+          <button>Starting from 799$</button>
+        </p>
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/65JrtwtTOdc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </div>
+      <div class="maincontent">
+        <div class="pro12">
+          <div class="flex-item">
+            <!--12pro-->
+            <h2 style="text-align: center; color: white">iPhone 12 Pro</h2>
+            <video playsinline autoplay loop muted style="max-width: 90%">
+              <source
+                src="https://www.apple.com/105/media/ww/iphone-12-pro/2020/e70ffbd8-50f1-40f3-ac36-0f03a15ac314/anim/hero/5g/portrait_medium.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <p style="font-weight: 600; font-size: 16px">
+              5G goes Pro. A14 Bionic rockets past every other smartphone chip.
+              The Pro camera system takes low-light photography to the next
+              level — with an even bigger jump on iPhone 12 Pro Max. And Ceramic
+              Shield delivers four times better drop performance. Let’s see what
+              this thing can do.
+            </p>
+            <p style="font-weight: 600; font-size: 20px">
+              <span style="color: #28829f">LiDAR scanner.</span> AR at the speed
+              of light.
+            </p>
+            <p style="font-weight: 600; font-size: 14px">
+              The LiDAR scanner on iPhone 12 Pro measures how long it takes
+              light to reflect back from objects, so it can create a depth map
+              of any space you’re in. Because it’s ultra-fast and accurate, AR
+              apps can now transform a room into a realistic rainforest or show
+              you exactly how a new pair of trainers will fit.
+            </p>
+            <video
+              playsinline
+              autoplay
+              loop
+              muted
+              style="margin-top: -10px; max-width: 90%"
+            >
+              <source
+                src="https://www.apple.com/105/media/us/iphone-12-pro/2020/e70ffbd8-50f1-40f3-ac36-0f03a15ac314/anim/lidar/large.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <p style="font-weight: 600; font-size: 20px">
+              Four finishing colors
+            </p>
+            <video playsinline autoplay loop muted>
+              <source
+                src="https://www.apple.com/105/media/us/iphone-12-pro/2020/e70ffbd8-50f1-40f3-ac36-0f03a15ac314/anim/colors/medium.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <p style="font-weight: 300; font-size: 14px">
+              Pacific Blue, Gold, Silver and Graphite
+            </p>
+            <p style="font-weight: 600; font-size: 14px">
+              Night mode comes to both the Wide and Ultra Wide cameras, and it’s
+              better than ever at capturing incredible low-light shots. LiDAR
+              makes Night mode portraits possible. And the Wide camera lets in
+              27 per cent more light, for greater detail and sharper focus day
+              or night.
+            </p>
+            <img
+              src="https://www.apple.com/v/iphone-12-pro/e/images/overview/camera/night_photography__dt6fw02h1xg2_large.jpg"
+              alt="procamera"
+              style="max-width: 80%"
+            />
+            <p style="font-weight: 600; font-size: 14px">
+              <span style="color: #53727c">MagSafe</span> Compatible
+            </p>
+
+            <h4>Product details</h4>
+            <img
+              class="ip-12"
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-graphite-hero?wid=470&hei=556&fmt=png-alpha&.v=1604021660000"
+              alt="iphone-12-pro"
+            />
+
+            <p>
+              <b>Display:</b><br />
+              6.1" Display Super Retina XDR<br />
+              <b>Camera:</b><br />
+              Pro 12MP camera.<br />Ultra-wide, Wide, Telephoto, LiDAR<br />4x
+              Optical Zoom<br />
+              <b>Chip:</b><br />
+              A14 Bionic Chip<br />
+              <b>Cellular and Wireless:</b><br />
+              5G (sub‑6 GHz) Wi-Fi 6, Bluetooth 5.0<br />
+              <b>Capacity:</b><br />
+              <select class="dropdown" name="size" required>
+                <option disabled value>Select a size</option>
+                <option value="128">128 GB</option>
+                <option value="256">256 GB</option>
+                <option value="512">512 GB</option></select
+              ><br />
+              <b>Colors:</b><br />
+              <select class="dropdown" name="color" required>
+                <option disabled value>Select a color</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+                <option value="pacificblue">Pacific Blue</option>
+                <option value="grafite">Grafite</option></select
+              ><br />
+              <b>Buy Now</b><br />
+              <button>Starting from 999$</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="maincontent">
+        <div class="pro12">
+          <div class="flex-item">
+            <!--12proMAX-->
+            <h2 style="text-align: center; color: white">iPhone 12 Pro Max</h2>
+            <video playsinline autoplay loop muted style="max-width: 50%">
+              <source
+                src="https://www.apple.com/105/media/us/iphone-12-pro/2020/e70ffbd8-50f1-40f3-ac36-0f03a15ac314/anim/compare/large.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <p style="font-weight: 300; font-size: 16px">
+              iPhone 12 Pro Max 6.7" and iPhone 12 Pro 6.1"
+            </p>
+            <p style="font-weight: 600; font-size: 14px">
+              The bigger iPhone maxes out the Pro camera system. A 47 per cent
+              larger sensor and larger pixels dramatically increase the amount
+              of light gathered on the Wide camera. A new OIS stabilises the
+              sensor instead of the lens so your shots are steady — even when
+              you’re not. And the new 65mm Telephoto camera lets you zoom in
+              tighter on portraits.
+            </p>
+            <img
+              src="https://www.apple.com/v/iphone-12-pro/e/images/overview/camera/pro_max_camera__bzij6665trhy_small.jpg"
+              alt="ip12procamera"
+              style="max-width: 80%"
+            />
+
+            <p style="font-weight: 600; font-size: 20px">
+              <span style="color: #53727c">MagSafe</span> Compatible
+            </p>
+            <video playsinline autoplay loop muted style="margin-top: -10px">
+              <source
+                src="https://www.apple.com/105/media/us/iphone-12-pro/2020/e70ffbd8-50f1-40f3-ac36-0f03a15ac314/anim/stackable/large.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <p style="font-weight: 300; font-size: 14px">
+              Apple Wallet and MagSafe cover are sold separately.
+            </p>
+
+            <h4>Product details</h4>
+            <img
+              class="ip-12"
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-max-silver-hero?wid=470&hei=556&fmt=png-alpha&.v=1604021658000"
+              alt="iphone-12-promax"
+            />
+
+            <p>
+              <b>Display:</b><br />
+              6.1" Display Super Retina XDR<br />
+              <b>Camera:</b><br />
+              Pro 12MP camera.<br />Ultra-wide, Wide, Telephoto, LiDAR<br />4x
+              Optical Zoom<br />
+              <b>Chip:</b><br />
+              A14 Bionic Chip<br />
+              <b>Cellular and Wireless:</b><br />
+              5G (sub‑6 GHz) Wi-Fi 6, Bluetooth 5.0<br />
+              <b>Capacity:</b><br />
+              <select class="dropdown" name="size" required>
+                <option disabled value>Select a size</option>
+                <option value="128">128 GB</option>
+                <option value="256">256 GB</option>
+                <option value="512">512 GB</option></select
+              ><br />
+              <b>Colors:</b><br />
+              <select class="dropdown" name="color" required>
+                <option disabled value>Select a color</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+                <option value="pacificblue">Pacific Blue</option>
+                <option value="grafite">Grafite</option></select
+              ><br />
+              <b>Buy Now</b><br />
+              <button>Starting from 1099$</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section id="contact-us">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            type="email"
+            id="email"
+            placeholder="Subscribe to newsletter"
+            required
+          />
+          <input type="submit" id="submit" value="Submit" class="btn" />
+        </form>
+      </section>
+    </div>
+
+    <script>
+      window.onscroll = () => {
+        const nav = document.querySelector("#header");
+        if (this.scrollY <= 10) nav.className = "";
+        else nav.className = "scroll";
+      };
+    </script>
+  </body>
+</html>
